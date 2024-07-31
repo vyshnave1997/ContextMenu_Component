@@ -1,0 +1,41 @@
+/* src/components/ContextMenu.css */
+.context-menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+.context-menu-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Dark shadow for button */
+}
+
+.context-menu {
+  position: absolute;
+  background-color: #222; /* Dark background for menu */
+  border-radius: 5px;
+  border: 1px solid #555; /* Darker border for menu */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Dark shadow for menu */
+  z-index: 1000;
+  margin-top: 5px;
+}
+
+.context-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.context-menu-item {
+  padding: 10px;
+  cursor: pointer;
+  color: #fff; /* White text color */
+}
+
+.context-menu-item:hover {
+  background-color: #444; /* Slightly lighter dark background on hover */
+}
